@@ -1,7 +1,88 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS3 Style Demo</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      p {
+        color: rgb(44, 62, 80);
+        font-size: 18px;
+      }
+
+      .border-box {
+        border: 3px solid #3498db;
+        border-radius: 12px;
+        padding: 15px;
+        margin: 15px 0;
+      }
+
+      .background-box {
+        background-color: #ffecd2;
+        background-image: -o-linear-gradient(to right,#ffecd2,#fcb69f);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .text-effects {
+        color: #ffffff;
+        background-color: #34495e;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+      }
+
+      .font-style {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 2px;
+
+
+      }
+
+      
+
+      .shadow-box {
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 3);
+        margin-top: 20px;
+      }
+
+
+    </style>
+
+  </head>
   <body>
-    <this is my first git file>
-      <p>
-        welcome to git and git hub</p>
-    </body>
-</html>  
+    <h1>CSS3 Styling Example</h1>
+    <p>This paragraph demonstrates basic <b>color</b> and <b> font</b>styling</p>
+    <div class="border-box">
+      this box demonstrates<b>CSS3 borders</b> and <b>border-radius</b>
+    </div>
+
+    <div class="background-box">
+      This section uses <b>CSS3 background colors and gradients</b>
+    </div>
+    <div class="text-effects">
+      CSS3 Text Shadow Effect
+    </div>
+    <p class="font-style">
+      This text demonstrates font styles like italic,bold, and letter spacing
+    </p>
+    <div class="shadow-box">
+      This box demonstrates <b>CSS3 box shadow</b>
+    </div>
+  </body>
+</html>
